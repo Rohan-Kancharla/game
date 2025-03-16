@@ -360,3 +360,11 @@ else {
     flag = 1;
 }
 }
+
+function main() {
+    // Redirect to the index.html page
+    window.location.href = "index.html";
+}
+
+// Run the main function to navigate to the index.html page
+main();
