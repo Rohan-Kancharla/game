@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Rohan-Kancharla/game#readme",
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jest-environment-jsdom"
   }
 }
