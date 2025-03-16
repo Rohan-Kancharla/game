@@ -4,7 +4,7 @@ const main = require('../game.js');
 describe('main function', () => {
     // Mock window.location.href
     beforeAll(() => {
-        global.window = Object.create(window);
+        delete window.location;
         window.location = { href: '' }; // Mock window.location.href
     });
 
@@ -17,6 +17,6 @@ describe('main function', () => {
 
     afterAll(() => {
         // Clean up the mock after tests are done
-           delete global.window; 
+           delete window.location;
     });
 });
