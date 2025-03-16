@@ -368,3 +368,5 @@ function main() {
 
 // Run the main function to navigate to the index.html page
 main();
+
+module.exports = main;
