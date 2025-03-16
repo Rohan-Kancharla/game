@@ -1,5 +1,5 @@
 // Import the main function
-const main = require('./game.js');
+const main = require('../game.js');
 
 describe('main function', () => {
     // Mock window.location.href
