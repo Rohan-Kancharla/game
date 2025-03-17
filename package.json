@@ -5,7 +5,7 @@
   "main": "game.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack --config webpack.config.js" 
+    "build": "webpack --config webpack.config.js",
      "sonar": "sonar-scanner"
   },
   "repository": {
